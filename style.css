@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+label {
+    font-size: small;
+}
+.card {
+    background: linear-gradient(45deg, rgb(247, 245, 245), rgb(19, 18, 18));
+    box-shadow: 5px 10px 5px black; 
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+   
+}
+.search {
+    display: flex-t;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    margin: .05em;
+    border-radius: 50%;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.description {
+  
+    text-transform: capitalize;
+    margin: 10px;
+   
+}
+
+.flex {
+    display: flex;
+}
+
+.units {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
